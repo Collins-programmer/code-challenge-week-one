@@ -15,37 +15,37 @@ body {
     max-width: 400px;
 }
 
-h1 { text-align: center; color: #333; }
+h1 { text-align: center; color: black; }
 
 .input-section { display: flex; gap: 10px; margin-bottom: 20px; }
 
 input {
     flex: 1;
     padding: 10px;
-    border: 2px solid #ddd;
+    border: 2px solid lightgrey;
     border-radius: 6px;
     outline: none;
 }
 
 button {
     padding: 10px 15px;
-    background-color: #28a745;
+    background-color: forestgreen;
     color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
 }
 
-button:hover { background-color: #218838; }
+button:hover { background-color: darkgreen; }
 
-.secondary { background-color: #dc3545; width: 100%; margin-top: 10px; }
-.secondary:hover { background-color: #c82333; }
+.secondary { background-color: crimson; width: 100%; margin-top: 10px; }
+.secondary:hover { background-color: darkred; }
 
 ul { list-style: none; padding: 0; }
 
 li {
-    background: #fff;
-    border-bottom: 1px solid #eee;
+    background: white;
+    border-bottom: 1px solid gainsboro;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -56,6 +56,6 @@ li {
 /* Visual cue for purchased items */
 li.purchased {
     text-decoration: line-through;
-    color: #888;
-    background-color: #f9f9f9;
+    color: gray;
+    background-color: whitesmoke;
 }
